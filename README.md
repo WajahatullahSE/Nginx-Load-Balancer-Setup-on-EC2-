@@ -15,7 +15,7 @@ After provisioning, NGINX is manually configured on the public instance to load 
 
 ## Architecture Diagram
 
-![Architecture Diagram](Documentation & Arch Diagram/nginx-loadbalancer.drawio.png)
+![Architecture Diagram](Documentation%20&%20Arch%20Diagram/nginx-loadbalancer.drawio.png)
 
 
 The public EC2 instance receives external traffic and forwards it to backend EC2 instances located in a private subnet. Backend instances are not directly accessible from the internet.
